@@ -1,5 +1,3 @@
-# ksr-skills
-
 ## Install
 
 Install all skills globally:
@@ -10,7 +8,14 @@ npx skills add 'git@github.com:kowsar89/ksr-skills.git' -g -s '*' --force
 
 Install a specific skill globally:
 
-```bash
-npx skills add 'git@github.com:kowsar89/ksr-skills.git' -g -s ksr-ask --force
-npx skills add 'git@github.com:kowsar89/ksr-skills.git' -g -s ksr-local-by-flywheel --force
-```
+1. **ksr-ask**: Ask-only mode; answers without making changes.
+
+   ```bash
+   npx skills add 'git@github.com:kowsar89/ksr-skills.git' -g -s ksr-ask --force
+   ```
+
+2. **ksr-local-by-flywheel**: Work on Local (LocalWP) WordPress sites.
+
+   ```bash
+   npx skills add 'git@github.com:kowsar89/ksr-skills.git' -g -s ksr-local-by-flywheel --force
+   ```
