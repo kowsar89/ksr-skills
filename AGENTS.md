@@ -2,6 +2,7 @@
 
 ## Skills
 - Path: `skills/ksr-<name>/SKILL.md`.
+- Develop skills with installation via `npx skills` and use across popular harnesses (Claude Code, Codex, OpenCode, Command Code, etc.) in mind.
 
 ## Writing
 - New files: the minimum text that fully achieves the goal.
