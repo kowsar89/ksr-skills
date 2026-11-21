@@ -1,0 +1,6 @@
+interface:
+  display_name: ksr-ask
+  short_description: Enter ask-only mode. Answer questions, explain, inspect, and
+    reason, but never take actions, modify files, run commands, or make changes.
+policy:
+  allow_implicit_invocation: false
