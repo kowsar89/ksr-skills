@@ -1,0 +1,7 @@
+interface:
+  display_name: ksr-commit-changes
+  short_description: Show what changed in a GitLab merge request after a given
+    commit, leaving out changes merged in from the target branch, as a diff-view
+    HTML page with review feedback.
+policy:
+  allow_implicit_invocation: false
