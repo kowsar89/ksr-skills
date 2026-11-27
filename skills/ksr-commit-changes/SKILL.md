@@ -61,7 +61,7 @@ Write one self-contained HTML page to a temporary directory outside the reposito
 
 - Header: MR/PR title and link, `<sha>` → `<head>` (short SHAs), the commit list, and file and line counts.
 - Feedback summary.
-- Each changed file as a diff view: old and new line numbers, added and removed lines coloured, and each feedback point shown under the line it refers to.
+- Each changed file as a side-by-side diff view: old version on the left and new on the right, each with its line numbers, changed lines aligned and removed and added lines coloured, and each feedback point shown under the row it refers to.
 - If the merge conflicted, mark those files: hunks there may still contain target-branch changes.
 - If the diff is empty, say so instead of the file list.
 
